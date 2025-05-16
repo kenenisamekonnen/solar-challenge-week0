@@ -1,1 +1,19 @@
+# Ignore virtual environments
 venv/
+.env/
+
+# Ignore dataset files
+solar-data-discovery/data/raw/
+solar-data-discovery/data/processed/
+
+# Ignore OS + editor files
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated outputs
+outputs/
